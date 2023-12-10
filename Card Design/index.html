@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card{
+            
+            box-sizing: border-box;
+            width: 25vw;
+            height: 85vh;
+            outline: 2px solid grey;
+            box-shadow:  5px 5px rgba(128, 128, 128, 0.41);
+            border-radius: 15px;
+            margin: 7vh auto ;
+            padding: 1vw;
+        
+        }
+        .image{
+            width: 15vw;
+            height: 34vh;
+        }
+        
+        img{
+            
+            box-sizing: border-box;
+            width: 23vw;
+            /* height: 35vh; */
+            /* border: 2px solid red; */
+            margin: auto;
+            border-radius: 15px;
+            margin: auto;
+        }
+        .cap{
+            padding: 10px;
+            margin: auto 0px;
+            width: 15vw;
+            /* margin: auto; */
+        }
+        .tab{
+            box-sizing: border-box;
+            color: grey;
+            border: 1px solid grey;
+            border-radius: 12px;
+            padding: 5px;
+            margin: auto;
+            font-size: medium;
+        }
+
+        main{
+            height: 30vh;
+            margin: auto 10px;
+            overflow: hidden;
+        }
+
+        h2{
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-size:larger;
+        }
+        p{
+            font-family: 'Baloo Bhai 2', sans-serif;
+            margin: 20px auto;
+            color: grey;
+            font-size: small;
+        }
+        
+
+        footer{
+            color: #023e8a;
+            background-color: #caf0f8;
+            text-align: center;
+            width: 10vw;
+            margin: auto;
+            padding: 10px;
+            /* border: 2px solid red; */
+            border-radius: 15px;
+            font-family: 'Baloo Bhai 2', sans-serif;
+        }
+    </style>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
+<body>
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <div class="card">
+        <div class="image">
+            <img src="image.jpg" alt="Public Image">
+        </div>
+        <div class="cap">
+            <span class="tab">Nature</span>
+            <span class="tab">Lake</span>
+        </div>
+        <main class="Cont">
+            <h2>Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime vel nihil in magnam quos omnis reprehenderit debitis!</p>
+        </main>
+        <footer>
+            Read More
+        </footer>
+    </div>
+</body>
+</html>
