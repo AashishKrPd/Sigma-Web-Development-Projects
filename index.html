@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Project</title>
     <style>
-        *{
+        * {
             /* margin: 0; */
             padding: 0;
         }
+
         header {
             text-align: center;
             font-family: sans-serif;
         }
-        
-        
+
+        header a {
+            color: #222222;
+        }
+
         ol {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             gap: 10px;
         }
 
-        li{
+        li {
             list-style: none;
             text-align: center;
             background-color: #5656ffbe;
@@ -32,7 +36,7 @@
             box-shadow: 0px 5px 5px 0px grey;
         }
 
-        a{
+        a {
             text-decoration: none;
             color: rgb(254, 254, 254);
         }
@@ -42,61 +46,64 @@
             height: 20vh;
         }
 
-        name{
+        name {
             display: block;
         }
 
         @media screen and (max-width: 1100px) {
-            ol{
+            ol {
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
+
         @media screen and (max-width: 800px) {
-            ol{
+            ol {
                 grid-template-columns: 1fr 1fr;
             }
         }
+
         @media screen and (max-width: 500px) {
-            ol{
+            ol {
                 grid-template-columns: 1fr;
             }
         }
-
     </style>
 </head>
 
 <body>
     <header>
-        <h1>My Projects from Sigma Web Development</h1>
+        <h1><a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects">My Projects from Sigma Web
+                Development</a></h1>
     </header>
     <div>
         <ol>
             <li>
                 <a href="Card Design/">
-                    <img src="thumbnail/CardDesign.png" alt="Thumbnail">
-                    <name>Card Design</name>
-                </a>
+                    <img src="thumbnail/CardDesign.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Card%20Design">
+                    <name>Card Design</name></a>
+
             </li>
             <li>
                 <a href="Multi Color WebSite/">
-                    <img src="thumbnail/MultiColorWebSite.png" alt="Thumbnail">
-                    <name>Multi Color WebSite</name>
-                </a>
+                    <img src="thumbnail/MultiColorWebSite.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Multi%20Color%20WebSite"><name>Multi Color WebSite</name></a>
+                
             </li>
             <li>
                 <a href="Layout Without FlexBox and Grid/">
-                    <img src="thumbnail/LayoutDesign.png" alt="Thumbnail">
-                    <name>Layout Without FlexBox and Grid</name>
-                </a>
+                    <img src="thumbnail/LayoutDesign.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Layout%20Without%20FlexBox%20and%20Grid"><name>Layout Without FlexBox and Grid</name></a>
+                
             </li>
             <li>
                 <a href="UltraEdit Clone using Flex and Grid/">
-                    <img src="thumbnail/UltraEdit.png" alt="Thumbnail">
-                    <name>UltraEdit Clone using Flex and Grid</name>
-                </a>
+                    <img src="thumbnail/UltraEdit.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/UltraEdit%20Clone%20using%20Flex%20and%20Grid"><name>UltraEdit Clone using Flex and Grid</name></a>
+                
             </li>
-            
-            
+
+
         </ol>
     </div>
 </body>
