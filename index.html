@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Project</title>
     <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+        }
         header {
             text-align: center;
             font-family: sans-serif;
@@ -14,15 +18,16 @@
         
         ol {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
         }
 
         li{
             list-style: none;
             text-align: center;
             background-color: #5656ffbe;
-            padding: 12px 40px;
+            padding: 12px 30px;
+            margin: 12px 0;
             font-size: 18px;
             box-shadow: 0px 5px 5px 0px grey;
         }
@@ -41,6 +46,22 @@
             display: block;
         }
 
+        @media screen and (max-width: 1100px) {
+            ol{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+        @media screen and (max-width: 800px) {
+            ol{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            ol{
+                grid-template-columns: 1fr;
+            }
+        }
+
     </style>
 </head>
 
@@ -52,25 +73,25 @@
         <ol>
             <li>
                 <a href="Card Design/">
-                    <img src="temp.png" alt="Thumbnail">
+                    <img src="thumbnail/CardDesign.png" alt="Thumbnail">
                     <name>Card Design</name>
                 </a>
             </li>
             <li>
                 <a href="Multi Color WebSite/">
-                    <img src="temp.png" alt="Thumbnail">
+                    <img src="thumbnail/MultiColorWebSite.png" alt="Thumbnail">
                     <name>Multi Color WebSite</name>
                 </a>
             </li>
             <li>
                 <a href="Layout/">
-                    <img src="temp.png" alt="Thumbnail">
+                    <img src="thumbnail/LayoutDesign.png" alt="Thumbnail">
                     <name>Layout Without FlexBox and Grid</name>
                 </a>
             </li>
             <li>
                 <a href="UltraEdit Colone/">
-                    <img src="temp.png" alt="Thumbnail">
+                    <img src="thumbnail/UltraEdit.png" alt="Thumbnail">
                     <name>UltraEdit Clone using Flex and Grid</name>
                 </a>
             </li>
