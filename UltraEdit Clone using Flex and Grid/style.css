@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -154,175 +153,172 @@ ul li span {
 
 /* Third begin */
 
-.blackBody{
+.blackBody {
     background-color: #222222;
 
 }
-.third{
-    color:white;
+
+.third {
+    color: white;
     font-family: sans-serif;
     margin: auto;
     width: 70vw;
     padding: 25px;
-    /* padding: 30px 30px; */
 }
 
-.third p{
+.third p {
     padding: 15px 0;
 }
 
 
-.upper{
+.upper {
     text-align: center;
+    justify-content: center;
     padding: 30px 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.join{
+.join {
     font-weight: bolder;
     padding-top: 50px;
     font-size: 20px;
 }
 
-.upper div:first-child{
-    /* padding: 12px; */
+.upper div:first-child {
     margin: 20px;
-    /* padding: 0px 0; */
 }
 
-.third .upper .email-box{
+.third .upper .email-box {
     background-color: #ffffff;
-    width: 300px;
+    width: 250px;
     margin: auto;
     border-radius: 12px;
     padding: 40px 40px;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
 }
 
-.email-box div{
+.email-box div {
     color: #00b6d1;
     font-size: 23px;
 }
 
-.email-box label{
+.email-box label {
     color: #222222;
     display: block;
     padding: 20px 0 0 0;
     font-size: 13px;
 }
 
-.email-box input{
+.email-box input {
     border-width: 1px;
     border-color: grey;
     height: 40px;
-    width: 295px;
+    width: 250px;
 }
 
-.email-box button{
+.email-box button {
     border: none;
     background-color: #00b6d1;
     height: 40px;
-    width: 300px;
+    width: 250px;
     margin: 12px;
     border-radius: 4px;
 }
 
-.email-box button a{
+.email-box button a {
     font-weight: bolder;
     color: white;
-    
+    text-decoration: none;
+
 }
 
 
 
-.lower{
+.lower {
     padding: 60px 30px;
 }
 
-.lower .info{
+.lower .info {
     font-size: 20px;
 }
 
-.lower p{
+.lower p {
     font-size: 15px;
 }
 
-.lower p .blueText{
-    color:#00b6d1
+.lower p .blueText {
+    color: #00b6d1
 }
 
-
-/* fourth */
-
-.fourth{
+.fourth {
     font-family: sans-serif;
     margin: 50px auto;
     width: 70vw;
     display: grid;
-    /* gap:5px */
-    
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-
-.col p{
+.col p {
     font-size: 14px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
-.col ul li{
+.col ul{
+    padding: 0 10px;
+}
+
+.col ul li {
     list-style: none;
-    color: black;
 }
 
-.col ul li a{
-    text-decoration: none;
-    
+.col ul a {
+    text-decoration:none;
+    color: #222222;
     font-size: 14px;
-    padding: 5px 20px;
 }
 
 
-.col label{
+.col label {
     font-size: 14px;
-    width: 295px;
+    width: 250px;
     padding: 12px;
 }
 
-.col input{
+.col input {
     display: block;
     border-width: 1px;
     border-color: grey;
     height: 40px;
-    width: 295px;
+    width: 250px;
     border-radius: 6px;
 }
 
-.col button{
+.col button {
     border: none;
     background-color: #00b6d1;
     height: 40px;
-    width: 300px;
+    width: 250px;
     margin: 12px;
     border-radius: 6px;
 }
 
 .col button a{
+    text-decoration: none;
     font-weight: bold;
     color: white;
 }
 
-.Subscribe{
+.Subscribe {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -332,36 +328,60 @@ footer{
     padding: 0 0 40px 0;
 }
 
-footer .logo{
+footer .logo {
     width: auto;
     padding: 30px 0;
 }
 
-footer .icons svg{
+footer .icons svg {
     padding: 5px;
 }
 
 
+/* nav */
+.right ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+}
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .grid {
         grid-template-columns: 1fr;
     }
 
-    .fourth{
-        grid-template-columns: 1fr 1fr;
-    }
 
-    .upper{
+    .upper {
         grid-template-columns: 1fr;
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr;
         text-align: center;
     }
-
-
 }
 
+@media screen and (max-width: 1250px) {
+    .fourth {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .right ul {
+        grid-template-columns: 1fr 1fr;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .right {
+        width: 30px;
+        height: 30px;
+        display: block;
+        border: none;
+        padding: 0px;
+        margin: 20px;
+        background: linear-gradient(to bottom, #3D0E61, #3D0E61 20%, white 20%, white 40%, #3D0E61 40%, #3D0E61 60%, white 60%, white 80%, #3D0E61 80%, #3D0E61 100%);
+    }
+}
