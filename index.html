@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Project</title>
     <style>
-        header{
+        header {
             text-align: center;
             font-family: sans-serif;
         }
-        ol{
-            display: flex;
-            background-color: rgba(89, 89, 254, 0.745);
-            flex-direction: column;
-            border: 2px solid black;
-        }
         
-        ol li{
-            /* list-style: none; */
-            padding: 20px;
-            color: rgb(254, 254, 254);
+        
+        ol {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px;
+        }
+
+        li{
+            list-style: none;
+            text-align: center;
+            background-color: #5656ffbe;
+            padding: 12px 40px;
             font-size: 18px;
+            box-shadow: 0px 5px 5px 0px grey;
         }
-        
-        ol li a{
+
+        a{
             text-decoration: none;
             color: rgb(254, 254, 254);
-            font-size: 18px;
         }
+
+        img {
+            border-radius: 12px;
+            height: 20vh;
+        }
+
+        name{
+            display: block;
+        }
+
     </style>
 </head>
+
 <body>
     <header>
         <h1>My Projects from Sigma Web Development</h1>
     </header>
     <div>
         <ol>
-            <li><a href="Card Design/">Card Design</a></li>
-            <li><a href="Multi Color WebSite/">Multi Color WebSite</a></li>
+            <li>
+                <a href="Card Design/">
+                    <img src="temp.png" alt="Thumbnail">
+                    <name>Card Design</name>
+                </a>
+            </li>
+            <li>
+                <a href="Multi Color WebSite/">
+                    <img src="temp.png" alt="Thumbnail">
+                    <name>Multi Color WebSite</name>
+                </a>
+            </li>
+            <li>
+                <a href="Layout/">
+                    <img src="temp.png" alt="Thumbnail">
+                    <name>Layout Without FlexBox and Grid</name>
+                </a>
+            </li>
+            <li>
+                <a href="UltraEdit Colone/">
+                    <img src="temp.png" alt="Thumbnail">
+                    <name>UltraEdit Clone using Flex and Grid</name>
+                </a>
+            </li>
+            
+            
         </ol>
     </div>
 </body>
+
 </html>
