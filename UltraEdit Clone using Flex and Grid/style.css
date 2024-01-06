@@ -1,3 +1,9 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     width: 42px;
     height: 32px;
@@ -93,7 +99,7 @@ ul li span {
 
 .second {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, ;
-    max-width: 65vw;
+    max-width: 70vw;
     margin: auto;
 }
 
@@ -146,9 +152,216 @@ ul li span {
     gap: 5px
 }
 
+/* Third begin */
+
+.blackBody{
+    background-color: #222222;
+
+}
+.third{
+    color:white;
+    font-family: sans-serif;
+    margin: auto;
+    width: 70vw;
+    padding: 25px;
+    /* padding: 30px 30px; */
+}
+
+.third p{
+    padding: 15px 0;
+}
+
+
+.upper{
+    text-align: center;
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.join{
+    font-weight: bolder;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.upper div:first-child{
+    /* padding: 12px; */
+    margin: 20px;
+    /* padding: 0px 0; */
+}
+
+.third .upper .email-box{
+    background-color: #ffffff;
+    width: 300px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.email-box div{
+    color: #00b6d1;
+    font-size: 23px;
+}
+
+.email-box label{
+    color: #222222;
+    display: block;
+    padding: 20px 0 0 0;
+    font-size: 13px;
+}
+
+.email-box input{
+    border-width: 1px;
+    border-color: grey;
+    height: 40px;
+    width: 295px;
+}
+
+.email-box button{
+    border: none;
+    background-color: #00b6d1;
+    height: 40px;
+    width: 300px;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.email-box button a{
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+
+.lower{
+    padding: 60px 30px;
+}
+
+.lower .info{
+    font-size: 20px;
+}
+
+.lower p{
+    font-size: 15px;
+}
+
+.lower p .blueText{
+    color:#00b6d1
+}
+
+
+/* fourth */
+
+.fourth{
+    font-family: sans-serif;
+    margin: 50px auto;
+    width: 70vw;
+    display: grid;
+    /* gap:5px */
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.col p{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.col ul li{
+    list-style: none;
+    color: black;
+}
+
+.col ul li a{
+    text-decoration: none;
+    
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+
+.col label{
+    font-size: 14px;
+    width: 295px;
+    padding: 12px;
+}
+
+.col input{
+    display: block;
+    border-width: 1px;
+    border-color: grey;
+    height: 40px;
+    width: 295px;
+    border-radius: 6px;
+}
+
+.col button{
+    border: none;
+    background-color: #00b6d1;
+    height: 40px;
+    width: 300px;
+    margin: 12px;
+    border-radius: 6px;
+}
+
+.col button a{
+    font-weight: bold;
+    color: white;
+}
+
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+    padding: 0 0 40px 0;
+}
+
+footer .logo{
+    width: auto;
+    padding: 30px 0;
+}
+
+footer .icons svg{
+    padding: 5px;
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
     .grid {
         grid-template-columns: 1fr;
     }
+
+    .fourth{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .upper{
+        grid-template-columns: 1fr;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+
 }
+
