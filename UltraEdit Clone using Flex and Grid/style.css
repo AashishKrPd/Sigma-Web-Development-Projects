@@ -1,0 +1,154 @@
+.logo {
+    width: 42px;
+    height: 32px;
+}
+
+.logo img {
+
+    width: 144px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+li img {
+    width: 25px;
+}
+
+ul li span {
+    padding: 0 9px;
+
+}
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 35px;
+}
+
+.first span span {
+    font-weight: bold;
+}
+
+.first span img {
+    width: 110px;
+    margin: 0 20px;
+}
+
+.first p {
+    font-size: 19px;
+    width: 85vw;
+    text-align: center;
+}
+
+.btn {
+    background: #00b6d1;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+
+.small {
+    font-size: 13px;
+}
+
+.second {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, ;
+    max-width: 65vw;
+    margin: auto;
+}
+
+.second img {
+    width: 55px;
+}
+
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.item-lang .nativeName {
+    font-weight: 700;
+}
+
+.item-lang .engName {
+    font-size: 12px;
+}
+
+.item-lang {
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download:nth-child(2) {
+    font-size: 20px;
+}
+
+
+.download img {
+    padding: 0 15px;
+}
+
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
