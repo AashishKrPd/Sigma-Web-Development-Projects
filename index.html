@@ -7,7 +7,7 @@
     <title> My Project</title>
     <style>
         * {
-            /* margin: 0; */
+            margin: 0;
             padding: 0;
         }
 
@@ -15,15 +15,18 @@
             text-align: center;
             font-family: sans-serif;
         }
-
+        
         header a {
+            margin: 20px auto;
             color: #222222;
         }
 
         ol {
             display: grid;
+            justify-content: space-around;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            gap: 10px;
+            gap: 15px 10px;
+            margin: 20px;
         }
 
         li {
@@ -31,7 +34,6 @@
             text-align: center;
             background-color: #5656ffbe;
             padding: 12px 30px;
-            margin: 12px 0;
             font-size: 18px;
             box-shadow: 0px 5px 5px 0px grey;
         }
@@ -60,6 +62,9 @@
             ol {
                 grid-template-columns: 1fr 1fr;
             }
+            header a {
+                font-size: 25px;
+            }
         }
 
         @media screen and (max-width: 500px) {
@@ -72,41 +77,57 @@
 
 <body>
     <header>
-        <h1><a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects" target="_blank">My Projects from Sigma Web
-                Development</a></h1>
+        <h1><a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects" target="_blank">My Projects from Sigma Web Development</a></h1>
     </header>
     <div>
         <ol>
             <li>
-                <a href="Card Design/" target="_blank">
-                    <img src="thumbnail/CardDesign.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Card%20Design" target="_blank">
-                    <name>Card Design</name></a>
+                <a href="./Card Design/" target="_blank">
+                    <img src="./thumbnail/CardDesign.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Card%20Design"
+                    target="_blank">
+                    <name>Card Design</name>
+                </a>
             </li>
             <li>
-                <a href="Multi Color WebSite/" target="_blank">
-                    <img src="thumbnail/MultiColorWebSite.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Multi%20Color%20WebSite" target="_blank"><name>Multi Color WebSite</name></a>
+                <a href="./Multi Color WebSite/" target="_blank">
+                    <img src="./thumbnail/MultiColorWebSite.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Multi%20Color%20WebSite"
+                    target="_blank">
+                    <name>Multi Color WebSite</name>
+                </a>
             </li>
             <li>
-                <a href="Layout Without FlexBox and Grid/" target="_blank">
-                    <img src="thumbnail/LayoutDesign.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Layout%20Without%20FlexBox%20and%20Grid" target="_blank"><name>Layout Without FlexBox and Grid</name></a>
+                <a href="./Layout Without FlexBox and Grid/" target="_blank">
+                    <img src="./thumbnail/LayoutDesign.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Layout%20Without%20FlexBox%20and%20Grid"
+                    target="_blank">
+                    <name>Layout Without FlexBox and Grid</name>
+                </a>
             </li>
             <li>
-                <a href="UltraEdit Clone using Flex and Grid/" target="_blank">
-                    <img src="thumbnail/UltraEdit.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/UltraEdit%20Clone%20using%20Flex%20and%20Grid" target="_blank"><name>UltraEdit Clone using Flex and Grid</name></a>
+                <a href="./UltraEdit Clone using Flex and Grid/" target="_blank">
+                    <img src="./thumbnail/UltraEdit.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/UltraEdit%20Clone%20using%20Flex%20and%20Grid"
+                    target="_blank">
+                    <name>UltraEdit Clone using Flex and Grid</name>
+                </a>
             </li>
             <li>
-                <a href="Bouncing Ball/" target="_blank">
-                    <img src="thumbnail/BouncingBall.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Bouncing%20Ball" target="_blank"><name>Bouncing Ball Animation</name></a>
+                <a href="./Bouncing Ball/" target="_blank">
+                    <img src="./thumbnail/BouncingBall.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/Bouncing%20Ball"
+                    target="_blank">
+                    <name>Bouncing Ball Animation</name>
+                </a>
             </li>
             <li>
-                <a href="NetFlix Clone/" target="_blank">
-                    <img src="thumbnail/NetFllixClone.png" alt="Thumbnail"></a>
-                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/NetFlix%20Clone" target="_blank"><name>NetFlix Clone</name></a>
+                <a href="./NetFlix Clone/" target="_blank">
+                    <img src="./thumbnail/NetFllixClone.png" alt="Thumbnail"></a>
+                <a href="https://github.com/AashishKrPd/Sigma-Web-Development-Projects/tree/main/NetFlix%20Clone"
+                    target="_blank">
+                    <name>NetFlix Clone</name>
+                </a>
             </li>
         </ol>
     </div>
